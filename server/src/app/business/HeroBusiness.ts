@@ -1,7 +1,3 @@
-/**
- * Created by Moiz.Kachwala on 15-06-2016.
- */
-
 import HeroRepository = require("./../repository/HeroRepository");
 import IHeroBusiness = require("./interfaces/HeroBusiness");
 import IHeroModel = require("./../model/interfaces/HeroModel");
