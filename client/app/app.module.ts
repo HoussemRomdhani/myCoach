@@ -10,6 +10,7 @@ import { HeroesComponent }      from './components/heroes/heroes.component';
 import { DashboardComponent }   from './components/dashboard/dashboard.component';
 import { HeroDetailComponent }  from './components/heroDetail/hero-detail.component';
 import { CoachsComponent }  from './components/coachs/coachs.component';
+import { CoachFormComponent }  from './components/coach-form/coach-form.component';
 
 import { HeroService }  from './services/hero.service';
 
@@ -25,7 +26,8 @@ import { HeroService }  from './services/hero.service';
     HeroesComponent,
     DashboardComponent,
     HeroDetailComponent,
-    CoachsComponent
+    CoachsComponent,
+    CoachFormComponent
   ],
   providers: [
     HeroService
