@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { HttpModule }     from '@angular/http';
 
+import {Ng2PaginationModule} from 'ng2-pagination';
+
+
 import { AppComponent }  from './app.component';
 import { routing }       from './app.routing';
 
@@ -11,14 +14,16 @@ import { DashboardComponent }   from './components/dashboard/dashboard.component
 import { HeroDetailComponent }  from './components/heroDetail/hero-detail.component';
 import { CoachsComponent }  from './components/coachs/coachs.component';
 import { CoachFormComponent }  from './components/coach-form/coach-form.component';
-
+import { TestComponent }  from './components/test/test.component';
 import { HeroService }  from './services/hero.service';
+
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
     FormsModule,
+    Ng2PaginationModule,
     routing
     ],
   declarations: [
@@ -27,7 +32,8 @@ import { HeroService }  from './services/hero.service';
     DashboardComponent,
     HeroDetailComponent,
     CoachsComponent,
-    CoachFormComponent
+    CoachFormComponent,
+    TestComponent
   ],
   providers: [
     HeroService

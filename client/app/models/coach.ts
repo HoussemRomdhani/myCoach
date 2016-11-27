@@ -1,9 +1,9 @@
 export class Coach {
   constructor(
-    public nom: string,
-    public titre: string,
+    public name: string,
+    public profession: string,
     public description: string,
-    public adresse: string,
+    public adress : string,
     public telephone: string
   ) {  }
 }

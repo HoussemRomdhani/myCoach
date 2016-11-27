@@ -5,6 +5,7 @@ import { HeroesComponent }      from './components/heroes/heroes.component';
 import { HeroDetailComponent }  from './components/heroDetail/hero-detail.component';
 import { CoachsComponent }  from './components/coachs/coachs.component';
 import { CoachFormComponent }  from './components/coach-form/coach-form.component';
+import { TestComponent }  from './components/test/test.component';
 
 const appRoutes: Routes = [
   {
@@ -31,6 +32,10 @@ const appRoutes: Routes = [
    {
     path: 'coach',
     component: CoachFormComponent
+  },
+    {
+    path: 'test',
+    component: TestComponent
   }
 ];
 
