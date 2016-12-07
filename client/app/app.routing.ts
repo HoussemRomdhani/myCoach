@@ -30,7 +30,7 @@ const appRoutes: Routes = [
     component: CoachsComponent
   },
    {
-    path: 'coach',
+    path: 'coach/:id',
     component: CoachFormComponent
   },
     {
