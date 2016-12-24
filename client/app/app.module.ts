@@ -14,7 +14,7 @@ import { DashboardComponent }   from './components/dashboard/dashboard.component
 import { HeroDetailComponent }  from './components/heroDetail/hero-detail.component';
 import { CoachsComponent }  from './components/coachs/coachs.component';
 import { CoachFormComponent }  from './components/coach-form/coach-form.component';
-import { TestComponent }  from './components/test/test.component';
+// import { TestComponent }  from './components/test/test.component';
 import { HeroService }  from './services/hero.service';
 import { CoachService }  from './services/coach.service';
 
@@ -34,8 +34,9 @@ import { CoachService }  from './services/coach.service';
     DashboardComponent,
     HeroDetailComponent,
     CoachsComponent,
-    CoachFormComponent,
-    TestComponent
+    CoachFormComponent
+    // ,
+    // TestComponent
   ],
   providers: [
     HeroService,
