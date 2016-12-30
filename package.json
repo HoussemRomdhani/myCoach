@@ -37,11 +37,14 @@
     "core-js": "^2.4.1",
     "express": "^4.14.0",
     "mongoose": "^4.6.1",
+    "ng2-filter-pipe": "^0.1.2",
     "ng2-img-cropper": "^0.7.1",
     "ng2-pagination": "^1.0.1",
+    "ng2-search-filter": "^0.1.8",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-rc.1",
     "systemjs": "0.19.39",
+    "typings": "^2.1.0",
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
